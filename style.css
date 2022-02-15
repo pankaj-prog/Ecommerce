@@ -1,0 +1,74 @@
+<<<<<<< Updated upstream
+=======
+/* Reset + Header  */
+@import url("https://ui-library-demo.netlify.app/src/components/ui-lib.css");
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* flex utilities */
+
+.flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-justify-content-center {
+  justify-content: center;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* header */
+.header-wrapper {
+  border-bottom: 1px solid var(--GRAY);
+}
+
+.header {
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header-nav li {
+  border-bottom: 2px solid transparent;
+}
+
+.header .header-search-wrapper {
+  flex-shrink: 5;
+}
+
+.header-ctas {
+  gap: 1rem;
+}
+>>>>>>> Stashed changes
