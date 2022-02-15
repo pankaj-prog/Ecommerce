@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/product/product.css" />
+    <title>Ecommmerce - Cart</title>
+  </head>
+  <body>
+    <section class="header-wrapper">
+      <header class="header">
+        <a href="$" class="header-brand h3">Some Business</a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </nav>
+        <div class="header-search-wrapper">
+          <label for="search"><i class="fas fa-search"></i></label>
+          <input type="text" id="search" />
+        </div>
+        <div class="header-ctas">
+          <button class="btn btn-outline-primary header-cart-btn">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </button>
+          <button class="btn btn-outline-primary">
+            <a href="#">Log in</a>
+          </button>
+          <button class="btn btn-solid-primary"><a href="#">Sign up</a></button>
+        </div>
+      </header>
+    </section>
+
+    <section class="categories">
+      <h1 class="h3 heading text-center">Top categories to explore</h1>
+      <div class="wrapper flex flex-justify-content-center">
+        <div class="card">
+          <img
+            class="responsive-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details text-center">
+            <h1 class="card-title">Business Skills</h1>
+            <div class="card-buttons flex-justify-content-center">
+              <button class="btn btn-link-primary">View Courses ></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="responsive-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details text-center">
+            <h1 class="card-title">Tech Skills</h1>
+            <div class="card-buttons flex-justify-content-center">
+              <button class="btn btn-link-primary">View Courses ></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="responsive-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details text-center">
+            <h1 class="card-title">Management Skills</h1>
+            <div class="card-buttons flex-justify-content-center">
+              <button class="btn btn-link-primary">View Courses ></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            class="responsive-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details text-center">
+            <h1 class="card-title">Wellness Skill</h1>
+            <div class="card-buttons flex-justify-content-center">
+              <button class="btn btn-link-primary">View Courses ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-courses">
+      <h1 class="h3 heading text-center">Top courses</h1>
+
+      <div class="wrapper flex flex-wrap flex-center">
+        <div class="card badge-container">
+          <img
+            class="responsive-img card-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details">
+            <h1 class="card-title h5">Course name</h1>
+            <p class="card-desc text-muted">Lorem ipsum dolor sit amet.</p>
+            <div class="price">$55</div>
+          </div>
+          <span class="card-badge badge-success"> 4.5 </span>
+        </div>
+
+        <div class="card badge-container">
+          <img
+            class="responsive-img card-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details">
+            <h1 class="card-title h5">Course name</h1>
+            <p class="card-desc text-muted">Lorem ipsum dolor sit amet.</p>
+            <div class="price">$55</div>
+          </div>
+          <span class="card-badge badge-success"> 4.5 </span>
+        </div>
+
+        <div class="card badge-container">
+          <img
+            class="responsive-img card-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details">
+            <h1 class="card-title h5">Course name</h1>
+            <p class="card-desc text-muted">Lorem ipsum dolor sit amet.</p>
+            <div class="price">$55</div>
+          </div>
+          <span class="card-badge badge-success"> 4.0</span>
+        </div>
+        <div class="card badge-container">
+          <img
+            class="responsive-img card-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details">
+            <h1 class="card-title h5">Course name</h1>
+            <p class="card-desc text-muted">Lorem ipsum dolor sit amet.</p>
+            <div class="price">$55</div>
+          </div>
+          <span class="card-badge badge-success"> 4.5 </span>
+        </div>
+        <div class="card badge-container">
+          <img
+            class="responsive-img card-img"
+            src="/assets/default.png"
+            alt="demo img"
+          />
+          <div class="card-details">
+            <h1 class="card-title h5">Course name</h1>
+            <p class="card-desc text-muted">Lorem ipsum dolor sit amet.</p>
+            <div class="price">$55</div>
+          </div>
+          <span class="card-badge badge-success"> 4.5 </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="all-courses flex-column">
+      <h1 class="h3 heading text-center">All courses</h1>
+      <div class="wrapper">
+        <aside class="filters flex-column">
+          <header class="flex">
+            <h1 class="h4">Filter</h1>
+            <button class="btn btn-link-primary">Clear</button>
+          </header>
+
+          <section class="price-group">
+            <h1 class="h5">Price</h1>
+            <form action="" class="price-form">
+              <label class="flex" for="price">
+                <span>0</span>
+                <span>50</span>
+                <span>100</span>
+              </label>
+              <input type="range" name="" id="price" />
+            </form>
+          </section>
+
+          <section class="category-group">
+            <h1 class="h5">Category</h1>
+            <form action="" class="flex-column">
+              <div class="form-input">
+                <input type="checkbox" name="" id="marketing" />
+                <label for="marketing"> Marketing </label>
+              </div>
+              <div class="form-input">
+                <input type="checkbox" id="finance" />
+                <label for="finance">Finance</label>
+              </div>
+              <div class="form-input">
+                <input type="checkbox" id="tech" />
+                <label for="tech">Technology</label>
+              </div>
+            </form>
+          </section>
+
+          <section class="rating-group">
+            <h1 class="h5">Ratings</h1>
+            <form action="" class="flex-column">
+              <div class="form-input">
+                <input type="radio" name="rating" id="four-and-above" />
+                <label for="four-and-above"> 4 stars and above </label>
+              </div>
+              <div class="form-input">
+                <input type="radio" name="rating" id="three-and-above" />
+                <label for="three-and-above">3 stars and above</label>
+              </div>
+              <div class="form-input">
+                <input type="radio" name="rating" id="two-and-above" />
+                <label for="two-and-above">2 stars and above</label>
+              </div>
+            </form>
+          </section>
+          <section class="sort-group">
+            <h1 class="h5">Sort by</h1>
+            <form action="" class="flex-column">
+              <div class="form-input">
+                <input type="radio" name="sort" id="high-to-low" />
+                <label for="high-to-low"> Price - high to low </label>
+              </div>
+              <div class="form-input">
+                <input type="radio" name="sort" id="low-to-high" />
+                <label for="low-to-high"> Price - low to high</label>
+              </div>
+            </form>
+          </section>
+        </aside>
+        <main class="main">
+          <div class="hz-card-wrapper">
+            <div class="course-card flex">
+              <img
+                class="responsive-img"
+                src="/assets/default.png"
+                alt="demo img"
+              />
+              <div class="course-details flex-column">
+                <h1 class="course-title h5">
+                  MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+                </h1>
+                <p class="course-desc">
+                  Build and deploy a social network with Node.js, Express,
+                  React, Redux & MongoDB. Fully updated 2022
+                  <br />
+                  <span class="text-muted text-sm">Brad Traversy</span>
+                  <br />
+                  <span class="text-muted text-sm"> 12 Total hours</span>
+                </p>
+                <div class="ctas">
+                  <button class="btn btn-solid-primary">Add to cart</button>
+                </div>
+              </div>
+              <div class="course-price"><span class="h5">$55</span></div>
+            </div>
+          </div>
+
+          <div class="hz-card-wrapper">
+            <div class="course-card flex">
+              <img
+                class="responsive-img"
+                src="/assets/default.png"
+                alt="demo img"
+              />
+              <div class="course-details flex-column">
+                <h1 class="course-title h5">
+                  MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+                </h1>
+                <p class="course-desc">
+                  Build and deploy a social network with Node.js, Express,
+                  React, Redux & MongoDB. Fully updated 2022
+                  <br />
+                  <span class="text-muted text-sm">Brad Traversy</span>
+                  <br />
+                  <span class="text-muted text-sm"> 12 Total hours</span>
+                </p>
+                <div class="ctas">
+                  <button class="btn btn-solid-primary">Add to cart</button>
+                </div>
+              </div>
+              <div class="course-price"><span class="h5">$55</span></div>
+            </div>
+          </div>
+          <div class="hz-card-wrapper">
+            <div class="course-card flex">
+              <img
+                class="responsive-img"
+                src="/assets/default.png"
+                alt="demo img"
+              />
+              <div class="course-details flex-column">
+                <h1 class="course-title h5">
+                  MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+                </h1>
+                <p class="course-desc">
+                  Build and deploy a social network with Node.js, Express,
+                  React, Redux & MongoDB. Fully updated 2022
+                  <br />
+                  <span class="text-muted text-sm">Brad Traversy</span>
+                  <br />
+                  <span class="text-muted text-sm"> 12 Total hours</span>
+                </p>
+                <div class="ctas">
+                  <button class="btn btn-solid-primary">Add to cart</button>
+                </div>
+              </div>
+              <div class="course-price"><span class="h5">$55</span></div>
+            </div>
+          </div>
+
+          <div class="hz-card-wrapper">
+            <div class="course-card flex">
+              <img
+                class="responsive-img"
+                src="/assets/default.png"
+                alt="demo img"
+              />
+              <div class="course-details flex-column">
+                <h1 class="course-title h5">
+                  MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+                </h1>
+                <p class="course-desc">
+                  Build and deploy a social network with Node.js, Express,
+                  React, Redux & MongoDB. Fully updated 2022
+                  <br />
+                  <span class="text-muted text-sm">Brad Traversy</span>
+                  <br />
+                  <span class="text-muted text-sm"> 12 Total hours</span>
+                </p>
+                <div class="ctas">
+                  <button class="btn btn-solid-primary">Add to cart</button>
+                </div>
+              </div>
+              <div class="course-price"><span class="h5">$55</span></div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+  </body>
+</html>
