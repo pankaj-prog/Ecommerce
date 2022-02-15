@@ -1,0 +1,155 @@
+/* heading */
+.heading {
+  background-color: var(--OFFWHITE);
+  padding: 0.5rem;
+}
+/* Header */
+
+.header-search-wrapper {
+  flex-grow: 2;
+}
+
+.header-cart-btn {
+  padding: 0;
+  border: none;
+}
+
+.header-cart-btn i:hover {
+  color: var(--GRAY);
+}
+
+/* Categories Section */
+
+.categories {
+  margin: auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+}
+.categories .heading {
+  margin-bottom: 2rem;
+}
+
+.categories .wrapper {
+  gap: 4rem;
+}
+
+.categories .card {
+  border: none;
+  width: auto;
+  max-width: 16rem;
+}
+/* Ṭop courses */
+
+.top-courses {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0rem 1rem;
+}
+
+.top-courses .wrapper {
+  padding: 2rem;
+}
+.top-courses .card {
+  max-width: 12rem;
+  line-height: 1.4em;
+}
+
+.badge-success {
+  background-color: var(--STATUS-ACTIVE);
+}
+
+.top-courses .card-img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* Course Section */
+
+.all-courses {
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.all-courses .wrapper {
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+  gap: 1rem;
+}
+
+/* filters */
+
+.filters header {
+  justify-content: space-between;
+}
+.filters {
+  padding: 1rem 1rem;
+  gap: 1.5rem;
+}
+
+.filters form {
+  margin-top: 0.5rem;
+  width: 10rem;
+  gap: 0.2rem;
+}
+
+.price-form input {
+  width: 9.5rem;
+}
+
+.price-form label {
+  justify-content: space-between;
+}
+
+/* Category Group */
+
+.category-group input {
+  display: inline-block;
+  margin-right: 0.5rem;
+  height: 1.2em;
+  width: 1.2em;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+}
+
+/* Rating Group */
+.rating-group input {
+  margin-right: 0.5rem;
+}
+
+/* Sort Group */
+.sort-group input {
+  margin-right: 0.5rem;
+}
+
+/* All courses */
+
+.hz-card-wrapper {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--GRAY);
+}
+
+.course-card {
+  width: 100%;
+  border: none;
+  height: 10rem;
+}
+
+.course-card img {
+  height: 100%;
+  width: auto;
+}
+
+.course-details {
+  gap: 0.4rem;
+}
+
+.course-price {
+  margin-left: auto;
+}
+
+.course-card .ctas {
+  margin-top: auto;
+}
