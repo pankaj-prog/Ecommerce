@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 /* Reset + Header  */
 @import url("https://ui-library-demo.netlify.app/src/components/ui-lib.css");
 
 /* Reset */
+=======
+/* Reset + Header  */
+>>>>>>> 9d477d80ac8e124bb4833098cb4de4afbec41f1a
 
 * {
   margin: 0;
@@ -19,6 +23,7 @@ a {
   color: inherit;
 }
 
+<<<<<<< HEAD
 /* flex utilities */
 
 .flex {
@@ -50,6 +55,12 @@ a {
 }
 
 /* header */
+=======
+.text-center {
+  text-align: center;
+}
+
+>>>>>>> 9d477d80ac8e124bb4833098cb4de4afbec41f1a
 .header-wrapper {
   border-bottom: 1px solid var(--GRAY);
 }
@@ -60,6 +71,7 @@ a {
   max-width: 1200px;
 }
 
+<<<<<<< HEAD
 .header-nav li {
   border-bottom: 2px solid transparent;
 }
@@ -72,3 +84,8 @@ a {
   gap: 1rem;
 }
 >>>>>>> Stashed changes
+=======
+.header .header-search-wrapper {
+  flex-shrink: 5;
+}
+>>>>>>> 9d477d80ac8e124bb4833098cb4de4afbec41f1a
