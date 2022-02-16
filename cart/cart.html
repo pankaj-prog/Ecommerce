@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/cart/cart.css" />
+    <title>Ecommmerce - Cart</title>
+  </head>
+  <body>
+    <section class="header-wrapper">
+      <header class="header">
+        <a href="$" class="header-brand h3">Some Business</a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </nav>
+        <div class="header-search-wrapper">
+          <label for="search"><i class="fas fa-search"></i></label>
+          <input type="text" id="search" />
+        </div>
+        <div class="header-ctas">
+          <button class="btn btn-outline-primary header-cart-btn">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </button>
+          <button class="btn btn-outline-primary">
+            <a href="#">Log in</a>
+          </button>
+          <button class="btn btn-solid-primary"><a href="#">Sign up</a></button>
+        </div>
+      </header>
+    </section>
+    <main>
+      <h1 class="cart-heading">Shopping Cart</h1>
+      <div class="cart-wrapper">
+        <section class="cart-bag">
+          <h1 class="h4 cart-wrapper-desc">2 courses in the cart.</h1>
+          <div class="hz-card-wrapper">
+            <div class="course-card flex">
+              <img
+                class="responsive-img"
+                src="/assets/default.png"
+                alt="demo img"
+              />
+              <div class="course-details flex-column">
+                <h1 class="course-title h5">
+                  MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+                </h1>
+                <p class="course-desc">
+                  Build and deploy a social network with Node.js, Express,
+                  React, Redux & MongoDB. Fully updated 2022
+                  <br />
+                  <span class="text-muted text-sm">Brad Traversy</span>
+                  <br />
+                  <span class="text-muted text-sm"> 12 Total hours</span>
+                </p>
+              </div>
+              <button class="btn btn-link-primary btn-remove">Remove</button>
+              <div class="course-price"><span class="h5">$55</span></div>
+            </div>
+          </div>
+
+          <div class="hz-card-wrapper">
+            <div class="course-card flex">
+              <img
+                class="responsive-img"
+                src="/assets/default.png"
+                alt="demo img"
+              />
+              <div class="course-details flex-column">
+                <h1 class="course-title h5">
+                  MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+                </h1>
+                <p class="course-desc">
+                  Build and deploy a social network with Node.js, Express,
+                  React, Redux & MongoDB. Fully updated 2022
+                  <br />
+                  <span class="text-muted text-sm">Brad Traversy</span>
+                  <br />
+                  <span class="text-muted text-sm"> 12 Total hours</span>
+                </p>
+              </div>
+              <button class="btn btn-link-primary btn-remove">Remove</button>
+              <div class="course-price"><span class="h5">$55</span></div>
+            </div>
+          </div>
+        </section>
+        <section class="cart-bill flex-column">
+          <span class="heading text-lg">Total:</span>
+          <span class="cart-final-price">$99.9</span>
+          <span class="cart-initial-price text-muted">$150</span>
+          <span class="cart-discount text-muted">50% off</span>
+          <button class="btn btn-solid-primary">Checkout</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
