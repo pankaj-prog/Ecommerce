@@ -1,0 +1,80 @@
+/* header wrapper */
+.header-search-wrapper {
+  flex-grow: 2;
+}
+
+.header-cart-btn {
+  padding: 0;
+  border: none;
+}
+
+.header-cart-btn i:hover {
+  color: var(--GRAY);
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.cart-heading {
+  padding: 2rem 0;
+}
+
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 18rem;
+  gap: 4rem;
+}
+
+/* cart bag */
+
+.hz-card-wrapper {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--GRAY);
+}
+
+.course-card {
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  border: none;
+  height: 8rem;
+}
+
+.course-card img {
+  height: 100%;
+  width: auto;
+}
+
+.course-details {
+  gap: 0.4rem;
+}
+
+.course-price {
+  margin-left: auto;
+}
+
+.course-card .ctas {
+  margin-top: auto;
+}
+
+/* Cart bill */
+.cart-bill {
+  padding: 0 1rem;
+  height: fit-content;
+  gap: 0.5rem;
+}
+
+.cart-final-price {
+  font-size: 2.5rem;
+}
+
+.cart-initial-price {
+  text-decoration: line-through;
+}
+
+.cart-bill button {
+  padding: 0.8rem 1rem;
+}
