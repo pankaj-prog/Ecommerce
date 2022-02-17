@@ -1,0 +1,48 @@
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.wishlist-heading {
+  padding: 2rem 0;
+}
+
+.hz-card-wrapper {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--GRAY);
+}
+
+.course-card {
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  border: none;
+  height: 8rem;
+}
+
+.course-card img {
+  height: 100%;
+  width: auto;
+}
+
+.course-details {
+  height: 100%;
+  gap: 0.4rem;
+}
+
+.course-price {
+  margin-left: auto;
+}
+
+.course-card .ctas {
+  margin-top: auto;
+}
+
+.course-card button {
+  align-self: flex-start;
+}
+
+.card-btns {
+  margin-top: auto;
+}
