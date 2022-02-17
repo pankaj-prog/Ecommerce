@@ -1,8 +1,12 @@
 .auth-box {
+  width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px 0 var(--GRAY);
 }
 
 .auth-box-heading {
@@ -41,6 +45,10 @@
 
 .form-guide {
   margin-top: 1rem;
+  text-align: center;
+}
+
+.form-alert {
   text-align: center;
 }
 
@@ -96,6 +104,7 @@
   width: 1rem;
   height: 1rem;
 }
+
 .btn-forgot-password {
   align-self: center;
 }
