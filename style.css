@@ -65,14 +65,20 @@ a {
   border-bottom: 2px solid transparent;
 }
 
-.header .header-search-wrapper {
-  flex-shrink: 5;
-}
-
 .header-ctas {
   gap: 1rem;
 }
 
 .header .header-search-wrapper {
   flex-shrink: 5;
+  flex-grow: 2;
+}
+
+.header-cart-btn {
+  padding: 0;
+  border: none;
+}
+
+.header-cart-btn i:hover {
+  color: var(--GRAY);
 }
