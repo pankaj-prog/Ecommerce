@@ -35,14 +35,7 @@ main {
   margin-left: auto;
 }
 
-.course-card .ctas {
-  margin-top: auto;
-}
-
-.course-card button {
-  align-self: flex-start;
-}
-
 .card-btns {
+  display: block;
   margin-top: auto;
 }
