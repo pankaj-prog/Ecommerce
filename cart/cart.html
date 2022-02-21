@@ -64,6 +64,16 @@
                   <br />
                   <span class="text-muted text-sm"> 12 Total hours</span>
                 </p>
+                <div class="quantity-wrapper">
+                  <button class="btn">-</button>
+                  <input
+                    class="quantity-input"
+                    type="number"
+                    min="0"
+                    value="1"
+                  />
+                  <button class="btn">+</button>
+                </div>
               </div>
               <button class="btn btn-link-primary btn-remove">Remove</button>
               <div class="course-price"><span class="h5">$55</span></div>
@@ -89,6 +99,16 @@
                   <br />
                   <span class="text-muted text-sm"> 12 Total hours</span>
                 </p>
+                <div class="quantity-wrapper">
+                  <button class="btn">-</button>
+                  <input
+                    class="quantity-input"
+                    value="2"
+                    type="number"
+                    min="0"
+                  />
+                  <button class="btn">+</button>
+                </div>
               </div>
               <button class="btn btn-link-primary btn-remove">Remove</button>
               <div class="course-price"><span class="h5">$55</span></div>
@@ -96,10 +116,22 @@
           </div>
         </section>
         <section class="cart-bill flex-column">
-          <span class="heading text-lg">Total:</span>
-          <span class="cart-final-price">$99.9</span>
+          <div class="promocode-wrapper flex">
+            <input type="text" placeholder="Enter promo code..." />
+            <button class="btn btn-solid-primary">Apply</button>
+          </div>
+          <div class="cart-initial text-muted">
+            Initial price : <span class="cart-initial-price">150$</span>
+          </div>
+          <div class="cart-discount text-muted">
+            Discount: <span class="cart-discount">40%</span>
+          </div>
+          <div class="cart-total fw-b">
+            Final Price: <span class="cart-total-price">$99</span>
+          </div>
+          <!-- <span class="heading text-lg">Total: <span> $99</span></span>
           <span class="cart-initial-price text-muted">$150</span>
-          <span class="cart-discount text-muted">50% off</span>
+          <span class="cart-discount text-muted">50% off</span> -->
           <button class="btn btn-solid-primary">Checkout</button>
         </section>
       </div>
