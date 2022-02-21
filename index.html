@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://ui-library-demo.netlify.app/src/components/ui-lib.css"
-    />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/homepage.css" />
     <title>Ecommmerce</title>
@@ -15,12 +11,12 @@
   <body>
     <div class="header-wrapper">
       <header class="header">
-        <a href="$" class="header-brand h3">Some Business</a>
+        <a href="/index.html" class="header-brand h3">Some Business</a>
         <nav class="header-nav">
           <ul>
             <li><a href="#">Why this business ?</a></li>
             <li><a href="#">Solutions</a></li>
-            <li><a href="#">Courses</a></li>
+            <li><a href="/product/product.html">Courses</a></li>
             <li><a href="#">Plans</a></li>
           </ul>
         </nav>
@@ -29,8 +25,10 @@
           <input type="text" id="search" />
         </div>
         <div class="header-ctas">
-          <button class="btn btn-outline-primary">Log in</button>
-          <button class="btn btn-solid-primary">Get Started</button>
+          <button class="btn btn-outline-primary">
+            <a href="/authentication/login.html">Log in</a>
+          </button>
+          <button class="btn btn-solid-primary" disabled>Get Started</button>
         </div>
       </header>
     </div>
@@ -38,8 +36,7 @@
       <div class="banner-content">
         <h1>With the right skills, anything's possible.</h1>
         <p>Give your team the tools they need to learn and lead.</p>
-
-        <button class="btn btn-outline-primary">Get Started</button>
+        <button class="btn btn-outline-primary" disabled>Get Started</button>
       </div>
       <div class="main-banner-img-wrapper">
         <img
@@ -66,7 +63,9 @@
           <div class="card-details">
             <h1 class="card-title">Business Skills</h1>
             <div class="card-buttons">
-              <button class="btn btn-link-primary">View Courses ></button>
+              <button class="btn btn-link-primary">
+                <a href="/product/product.html#courses">View Courses ></a>
+              </button>
             </div>
           </div>
         </div>
@@ -76,7 +75,9 @@
           <div class="card-details">
             <h1 class="card-title">Tech Skills</h1>
             <div class="card-buttons">
-              <button class="btn btn-link-primary">View Courses ></button>
+              <button class="btn btn-link-primary">
+                <a href="/product/product.html#courses">View Courses ></a>
+              </button>
             </div>
           </div>
         </div>
@@ -86,13 +87,15 @@
           <div class="card-details">
             <h1 class="card-title">Management Skills</h1>
             <div class="card-buttons">
-              <button class="btn btn-link-primary">View Courses ></button>
+              <button class="btn btn-link-primary">
+                <a href="/product/product.html#courses">View Courses ></a>
+              </button>
             </div>
           </div>
         </div>
       </div>
       <button class="btn btn-solid-primary">
-        Explore our course collection
+        <a href="/product/product.html">Explore our course collection </a>
       </button>
     </section>
   </body>
