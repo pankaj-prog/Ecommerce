@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/wishlist/wishlist.css" />
+    <title>Ecommerce - wishlist</title>
+  </head>
+  <body>
+    <section class="header-wrapper">
+      <header class="header">
+        <a href="/index.html" class="header-brand h3">Some Business</a>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="/product/product.html">Courses</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </nav>
+        <div class="header-search-wrapper">
+          <label for="search"><i class="fas fa-search"></i></label>
+          <input type="text" id="search" />
+        </div>
+        <div class="header-ctas">
+          <button class="btn btn-outline-primary header-icon-btn">
+            <a href="/cart/cart.html"><i class="fas fa-shopping-cart"></i></a>
+          </button>
+          <button class="btn btn-outline-primary header-icon-btn">
+            <a href="#"><i class="fas fa-heart"></i></a>
+          </button>
+          <div class="header-icon-btn user-wrapper">
+            <i class="fas fa-user"></i>
+            <div class="popup">
+              <button class="btn btn-link-primary">View Profile</button>
+              <button class="btn btn-solid-primary btn-rc">Log out</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <main>
+      <h1 class="wishlist-heading">My wishlist</h1>
+      <section class="wishlist-bag">
+        <h1 class="h4">2 items in wishlist</h1>
+        <div class="hz-card-wrapper">
+          <div class="course-card flex">
+            <img
+              class="responsive-img"
+              src="/assets/default.png"
+              alt="demo img"
+            />
+            <div class="course-details flex-column">
+              <h1 class="course-title h5">
+                MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+              </h1>
+              <p class="course-desc">
+                Build and deploy a social network with Node.js, Express, React,
+                Redux & MongoDB. Fully updated 2022
+                <br />
+                <span class="text-muted text-sm">Brad Traversy</span>
+                <br />
+                <span class="text-muted text-sm"> 12 Total hours</span>
+              </p>
+              <span class="card-btns">
+                <button class="btn btn-solid-primary">Move to cart</button>
+                <button class="btn btn-outline-primary">
+                  Remove from wishlist
+                </button>
+              </span>
+            </div>
+            <div class="course-price"><span class="h5">$55</span></div>
+          </div>
+        </div>
+
+        <div class="hz-card-wrapper">
+          <div class="course-card flex">
+            <img
+              class="responsive-img"
+              src="/assets/default.png"
+              alt="demo img"
+            />
+            <div class="course-details flex-column">
+              <h1 class="course-title h5">
+                MERN Stack Course 2022 - MongoDB, Express, React and NodeJS
+              </h1>
+              <p class="course-desc">
+                Build and deploy a social network with Node.js, Express, React,
+                Redux & MongoDB. Fully updated 2022
+                <br />
+                <span class="text-muted text-sm">Brad Traversy</span>
+                <br />
+                <span class="text-muted text-sm"> 12 Total hours</span>
+                <span class="card-btns">
+                  <button class="btn btn-solid-primary">Move to cart</button>
+                  <button class="btn btn-outline-primary">
+                    Remove from wishlist
+                  </button>
+                </span>
+              </p>
+            </div>
+            <div class="course-price"><span class="h5">$55</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

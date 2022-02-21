@@ -1,6 +1,6 @@
 /* reset, utils and header styling */
 
-@import url("https://ui-library-demo.netlify.app/src/components/ui-lib.css");
+@import url("https://adaptiveui.netlify.app/src/components/ui-lib.css");
 
 * {
   margin: 0;
@@ -16,6 +16,9 @@ a {
   color: inherit;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
 /* flex utilities */
 
 .flex {
@@ -74,11 +77,32 @@ a {
   flex-grow: 2;
 }
 
-.header-cart-btn {
+.header-icon-btn {
   padding: 0;
   border: none;
 }
 
-.header-cart-btn i:hover {
+.header-icon-btn i:hover {
   color: var(--GRAY);
+}
+
+.user-wrapper {
+  position: relative;
+}
+
+.popup {
+  display: none;
+  background-color: var(--WHITE);
+  font-size: 0.87rem;
+  box-shadow: 0px 0px 8px 0px var(--GRAY);
+  border-radius: 4px;
+  padding: 1rem;
+  width: max-content;
+  gap: 1rem;
+}
+
+.user-wrapper:hover .popup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }

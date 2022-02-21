@@ -11,9 +11,10 @@
   <body>
     <section class="header-wrapper">
       <header class="header">
-        <a href="$" class="header-brand h3">Some Business</a>
+        <a href="/index.html" class="header-brand h3">Some Business</a>
         <nav class="header-nav">
           <ul>
+            <li><a href="/product/product.html">Courses</a></li>
             <li><a href="#">Categories</a></li>
             <li><a href="#">Plans</a></li>
           </ul>
@@ -23,13 +24,12 @@
           <input type="text" id="search" />
         </div>
         <div class="header-ctas">
-          <button class="btn btn-outline-primary header-cart-btn">
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <button class="btn btn-outline-primary header-icon-btn">
+            <a href="/cart/cart.html"><i class="fas fa-shopping-cart"></i></a>
           </button>
-          <button class="btn btn-outline-primary">
-            <a href="#">Log in</a>
+          <button class="btn btn-solid-primary">
+            <a href="/authentication/signup.html">Sign up</a>
           </button>
-          <button class="btn btn-solid-primary"><a href="#">Sign up</a></button>
         </div>
       </header>
     </section>
@@ -64,7 +64,7 @@
               placeholder="Password"
             />
           </div>
-          <button type="button" class="auth-btn form-btn">Log in</button>
+          <button type="button" class="btn auth-btn form-btn">Log in</button>
           <button
             type="button"
             class="btn btn-link-primary btn-forgot-password"
@@ -74,7 +74,9 @@
         </form>
         <footer class="auth-box-footer">
           Don't have an account ?
-          <button class="btn btn-link-primary">Sign-up</button>
+          <button class="btn btn-link-primary">
+            <a href="/authentication/signup.html"> Sign-up</a>
+          </button>
         </footer>
       </section>
     </main>

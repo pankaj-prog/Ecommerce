@@ -3,12 +3,12 @@
   flex-grow: 2;
 }
 
-.header-cart-btn {
+.header-icon-btn {
   padding: 0;
   border: none;
 }
 
-.header-cart-btn i:hover {
+.header-icon-btn i:hover {
   color: var(--GRAY);
 }
 
